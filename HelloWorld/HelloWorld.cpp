@@ -36,6 +36,7 @@ int main()
 		{
             cout << "£¨ÄãÃ»ÀíËû¡££©\r\nDid you hear me?\r\n";
 		}
+
     }
 
     cout << "Game Over! Have fun~\r\n";
