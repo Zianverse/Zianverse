@@ -35,7 +35,7 @@ void LessonManager::Start()
 
 void LessonManager::PrintLessons()
 {
-	cout << "这是所有课程列表：" << endl;
+	cout << "\r\n\r\n这是所有课程列表：" << endl;
 	for (size_t i = 0; i < _lessons.size(); i++)
 	{
 		CreativeLesson& lesson = *_lessons[i];
@@ -45,7 +45,7 @@ void LessonManager::PrintLessons()
 
 int LessonManager::GetLessonIndexToStart()
 {
-	cout << "请输入你想要运行的课程序号: " << endl;
+	cout << "\r\n请输入你想要运行的课程序号: " << endl;
 	int lessonIndex;
 	cin >> lessonIndex;
 	return lessonIndex;
@@ -57,6 +57,6 @@ void LessonManager::StartLesson(int lessonIndex)
 		return;
 
 	CreativeLesson& lesson = *_lessons[lessonIndex];
-	cout << "\r\n\r\n课程 " << lessonIndex << ": " << lesson.LessonName() << "开始运行：" << endl;
+	cout << "\r\n\r\n课程" << lessonIndex << ": 【" << lesson.LessonName() << "】开始运行：" << endl;
 	lesson.Start();
 }
