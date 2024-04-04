@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Lesson2\PoorChatGPT.h" />
+    <ClInclude Include="Lesson0\HelloWorld.h" />
+    <ClInclude Include="Creative\CreativeLesson.h" />
+    <ClInclude Include="Creative\LessonManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lesson2\PoorChatGPT.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Lesson0\HelloWorld.cpp" />
+    <ClCompile Include="Creative\CreativeLesson.cpp" />
+    <ClCompile Include="Creative\LessonManager.cpp" />
+  </ItemGroup>
+</Project>
